@@ -1,0 +1,198 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4345022700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Wales Test Ticket - Acceptance Criteria",
+        "description": "",
+        "id": "eligibility-checker;wales-test-ticket---acceptance-criteria",
+        "after": [
+          {
+            "result": {
+              "duration": 768683300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 746125100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am a person from Wales",
+            "match": {
+              "location": "MyStepdefs.iAmAPersonFromWales()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 281259500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I put my GP Practice",
+            "match": {
+              "location": "MyStepdefs.iPutMyGPPractice()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 268976000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I Put my Dental Practice",
+            "match": {
+              "location": "MyStepdefs.iPutMyDentalPractice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 618989600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I put my Date Of Birth",
+            "match": {
+              "location": "MyStepdefs.iPutMyDateOfBirth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 281234900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I live with a partner or not",
+            "match": {
+              "location": "MyStepdefs.iLiveWithAPartnerOrNot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 282172100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I put my or my partner claim any benefits or tax credits?",
+            "match": {
+              "location": "MyStepdefs.iPutMyOrMyPartnerClaimAnyBenefitsOrTaxCredits()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266742300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I Put my pregnant or have you given birth in the last 12 months?",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12",
+                  "offset": 54
+                }
+              ],
+              "location": "MyStepdefs.iPutMyPregnantOrHaveYouGivenBirthInTheLastMonths(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261250700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I put my have an injury or illness caused by serving in the armed forces?",
+            "match": {
+              "location": "MyStepdefs.iPutMyHaveAnInjuryOrIllnessCausedByServingInTheArmedForces()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 268993800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I put my or my partner live permanently in a care home?",
+            "match": {
+              "location": "MyStepdefs.iPutMyOrMyPartnerLivePermanentlyInACareHome()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343674900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I put my and my partner have more than £16,000 in savings, investments or property?",
+            "match": {
+              "arguments": [
+                {
+                  "val": "16",
+                  "offset": 40
+                },
+                {
+                  "val": "000",
+                  "offset": 43
+                }
+              ],
+              "location": "MyStepdefs.iPutMyAndMyPartnerHaveMoreThan£InSavingsInvestmentsOrProperty(int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32822800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should get a result of whether I will get help or not",
+            "match": {
+              "location": "MyStepdefs.iShouldGetAResultOfWhetherIWillGetHelpOrNot()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Eligibility Checker",
+    "description": "",
+    "id": "eligibility-checker",
+    "keyword": "Feature",
+    "uri": "EligibilityChecker.feature"
+  }
+]
